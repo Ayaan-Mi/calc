@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="home">
+        <h2>Calculator</h2>
+        <div class="calculator">
+            <div id="display"></div>
+            <button onclick="number(1)"><b>1</b></button>
+            <button onclick="number(2)"><b>2</b></button>
+            <button onclick="number(3)"><b>3</b></button>
+            <button onclick="operator('+')"><b>+</b></button>
+            <button onclick="number(4)"><b>4</b></button>
+            <button onclick="number(5)"><b>5</b></button>
+            <button onclick="number(6)"><b>6</b></button>
+            <button onclick="operator('-')"><b>-</b></button>
+            <button onclick="number(7)"><b>7</b></button>
+            <button onclick="number(8)"><b>8</b></button>
+            <button onclick="number(9)"><b>9</b></button>
+            <button onclick="operator('*')"><b>x</b></button>
+            <button onclick="ClearDisplay()"><b>CE</b></button>
+            <button onclick="number(0)"><b>0</b></button>
+            <button onclick="ShowResult()"><b>=</b></button>
+            <button onclick="operator('/')"><b>÷</b></button>
+        </div>
+        <div class="pow_root">
+
+            <div class="power">
+                <h2>Calculate Power</h2>
+                <input id="base" type="number" placeholder="Enter the Number" oninput="updateBase()">
+                <br>
+                <input id="exponent" type="number" placeholder="Enter the Power" oninput="updateExponent()">
+                <br>
+                <button onclick="calculatePower()">Result</button>
+                <br>
+                <h2>The value of <span id="num"></span> raised to the power of <span id="pow"></span> is: <span
+                        id="ans"></span></h2>
+            </div>
+
+            <div class="Root">
+                <h2>Calculate Root</h2>
+                <input id="rt_num" type="number" placeholder="Enter the Number" oninput="rt_num()">
+                <br>
+                <input id="root" type="number" placeholder="Enter the root" oninput="rt_root()">
+                <br>
+                <button onclick="calculatert()">Result</button>
+                <br>
+                <h2>Result is : <span id="sqrt_result"></span></h2>
+            </div>
+        </div>
+    </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
