@@ -11,6 +11,7 @@
 <body>
     <div class="home">
         <h2 class="Heading">Calculator</h2>
+        <!-- Calculator -->
         <div class="calculator">
             <div id="display"></div>
             <button onclick="number(1)"><b>1</b></button>
@@ -32,7 +33,9 @@
         </div>
 
         <div class="pow_root">
+
             <!-- Calculate Power -->
+
             <div class="power">
                 <h2 class="Heading">Calculate Power</h2>
                 <h3>Number &nbsp;<input id="base" type="number" placeholder="Enter the Number" oninput="updateBase()">
@@ -43,10 +46,12 @@
                 <br>
                 <button onclick="calculatePower()">Result</button>
                 <br>
+                <br>
                 <h2>Result is : <span id="power_result"></span></h2>
             </div>
 
             <!-- Calculate Root -->
+
             <div class="Root">
                 <h2 class="Heading">Calculate Root</h2>
                 <h3>Number &nbsp;<input id="rt_num" type="number" placeholder="Enter the Number"
@@ -56,6 +61,7 @@
                         oninput="updateRoot()"></h3>
                 <br>
                 <button onclick="calculateRoot()">Result</button>
+                <br>
                 <br>
                 <h2>Result is : <span id="sqrt_result"></span></h2>
             </div>

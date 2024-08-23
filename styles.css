@@ -21,6 +21,7 @@ body {
 }
 
 /* Calculator */
+
 .calculator {
     background-color: #fff;
     border: 1px solid #ccc;
@@ -54,6 +55,7 @@ body {
 }
 
 /* Power & Root*/
+
 .pow_root {
     margin-top: 20px;
     display: flex;
