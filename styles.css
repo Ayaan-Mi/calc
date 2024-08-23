@@ -61,7 +61,8 @@ body {
     align-items: center;
 }
 
-.power, .Root {
+.power,
+.Root {
     background-color: #fff;
     border: 1px solid #ccc;
     padding: 20px;
@@ -71,7 +72,8 @@ body {
     margin-top: 20px;
 }
 
-.power input, .Root input {
+.power input,
+.Root input {
     width: 300px;
     padding: 12px;
     background-color: floralwhite;
@@ -80,7 +82,8 @@ body {
     margin-bottom: 10px;
 }
 
-.power button, .Root button {
+.power button,
+.Root button {
     width: 500px;
     padding: 12px;
     background-color: #fff;
@@ -89,16 +92,19 @@ body {
     cursor: pointer;
 }
 
-.power button:hover, .Root button:hover {
+.power button:hover,
+.Root button:hover {
     background-color: azure;
     border: 3px solid #fff;
 }
 
-h2, h3 {
+h2,
+h3 {
     margin: 0;
     padding: 5px 0;
 }
 
-h2 span, h3 span {
+h2 span,
+h3 span {
     font-weight: bold;
 }
